@@ -2,6 +2,7 @@ from App.Commands import *
 
 
 data = {
+    'semnadtsat' : semnadtsat,
 
     'derynm' : derynm,
     'xzarras'   : xzarras,
@@ -30,4 +31,3 @@ data = {
     'ilse31':ilse31,
 	  'bejjoeqq' : bejjoeqq,
 }
-
