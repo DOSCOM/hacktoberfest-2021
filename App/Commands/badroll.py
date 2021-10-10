@@ -1,4 +1,5 @@
 data = {
+    'photo' : 'https://drive.google.com/file/d/1y7IPnolI-hn6s4eJhZ5s_8RnPBkz4qTN/view?usp=sharing',
     "message-1" : """
         <b>WELCOME</b>
         <i>lorem ipsum dolor sit amet</i>
