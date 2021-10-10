@@ -2,6 +2,15 @@ from App.Commands import *
 
 
 data = {
+
+	'fachryaa' : fachryaa,
+  'ivannoard' : ivannoard,
+  'safiraauliar' : safiraauliar,
+  'rofinoorsalim' : rofinoorsalim,
+  'Dewasurya16' : Dewasurya16,
+  'Trisatya-Programming' : Trisatya-Programming,
+  'ilse31':ilse31,
+	'bejjoeqq' : bejjoeqq,
     "wmprawiro" : wmprawiro,
     "badroll" : badroll,
 	  'maulanaaghnii' : maulanaaghnii,
@@ -14,3 +23,4 @@ data = {
     'ilse31':ilse31,
 	  'bejjoeqq' : bejjoeqq,
 }
+
