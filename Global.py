@@ -2,7 +2,8 @@ from App.Commands import *
 from App.Commands import ilse31
 
 data = {
-	'maulanaaghnii' : maulanaaghnii,
+    "badroll" : badroll,
+	  'maulanaaghnii' : maulanaaghnii,
     'rama1277' : rama1277,
     'ivannoard' : ivannoard,
     'safiraauliar' : safiraauliar,
