@@ -3,6 +3,7 @@ from App.Commands import *
 
 data = {
 
+    'derynm' : derynm,
     'xzarras'   : xzarras,
     'NecroYash' : NecroYash,
 	'enrico-zd' : enrico-zd,
