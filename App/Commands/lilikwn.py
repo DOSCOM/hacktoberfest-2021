@@ -2,5 +2,7 @@ data = {
     'message-1': '''
     <b>Selamat Welcome<b>
     <i>DOSCOM X HACKTOBERFEST</i>
-    lilikwn'''
+    lilikwn''',
+    'course-1': 'https://www.udemy.com/course/linux-fundamentals-for-cyber-security-ethical-hacking-basic/?source=@udemyCoursesFreeTelegram&couponCode=CYBER-MONTH',
+    'course-2': 'https://www.udemy.com/course/javascript-basics-start-coding-in-5-minutes-2019/?source=@udemyCoursesFreeTelegram&couponCode=null'
 }
