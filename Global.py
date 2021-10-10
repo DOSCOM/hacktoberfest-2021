@@ -1,4 +1,5 @@
 from App.Commands import *
+from App.Commands import MirzaRazzaq
 
 data = {
 'Rifqi2000' : Rifqi2000,
@@ -26,5 +27,6 @@ data = {
 "badroll" : badroll,
 'maulanaaghnii' : maulanaaghnii,
 'rama1277' : rama1277,
+'MirzaRazzaq': MirzaRazzaq,
 'yogasnaper' : yogasnaper,
 }
