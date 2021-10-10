@@ -1,5 +1,4 @@
 from App.Commands import *
-from App.Commands import MirzaRazzaq
 
 data = {
 
