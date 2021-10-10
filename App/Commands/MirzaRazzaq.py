@@ -4,5 +4,6 @@ data = {
 	'Saya VVibu dan Aku Bangga',
     'message-2' : 
     'Diam bersantai bergerak langsung membantai',
-
+    'course' : 'Paid course : https://www.udemy.com/course/python-komplet/',
+    'api': 'https://jsonplaceholder.typicode.com/photos',
 }
