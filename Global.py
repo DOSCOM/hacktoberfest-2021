@@ -1,5 +1,7 @@
 from App.Commands import *
 
 data = {
-    'safiraauliar' : safiraauliar,
+  'safiraauliar' : safiraauliar,
+  'rofinoorsalim' : rofinoorsalim,
+	'bejjoeqq' : bejjoeqq,
 }
