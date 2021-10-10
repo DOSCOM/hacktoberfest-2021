@@ -2,6 +2,7 @@ from App.Commands import *
 from App.Commands import MirzaRazzaq
 
 data = {
+    'anamilatul' : anamilatul,
 'Rifqi2000' : Rifqi2000,
 'lilikwn': lilikwn,
 'RoyalWeaboo' : RoyalWeaboo,
