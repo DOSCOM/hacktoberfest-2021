@@ -3,6 +3,8 @@ from App.Commands import *
 
 data = {
 
+	'enrico-zd' : enrico-zd,
+
     'Alaik1924' : Alaik1924,
     '4khdan' : 4khdan,
     'mazc0de' : mazc0de,
