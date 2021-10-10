@@ -2,6 +2,8 @@ from App.Commands import *
 
 
 data = {
+'RoyalWeaboo' : RoyalWeaboo,
+
     'Villaneuvo' : Villaneuvo,
     'mazc0de' : mazc0de,
     'fachryaa' : fachryaa,
