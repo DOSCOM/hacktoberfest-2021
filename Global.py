@@ -1,7 +1,8 @@
 from App.Commands import *
-from App.Commands import ilse31
+
 
 data = {
+    "wmprawiro" : wmprawiro,
     "badroll" : badroll,
 	  'maulanaaghnii' : maulanaaghnii,
     'rama1277' : rama1277,
