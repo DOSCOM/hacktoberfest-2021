@@ -3,6 +3,17 @@ from App.Commands import *
 
 data = {
     'lilikwn': lilikwn,
+    'Villaneuvo' : Villaneuvo,
+    'mazc0de' : mazc0de,
+    'fachryaa' : fachryaa,
+    'ivannoard' : ivannoard,
+    'safiraauliar' : safiraauliar,
+    'rofinoorsalim' : rofinoorsalim,
+    'Dewasurya16' : Dewasurya16,
+    'Trisatya-Programming' : Trisatya-Programming,
+    'ilse31':ilse31,
+    'bejjoeqq' : bejjoeqq,
+    'shironim': shironim,
     'semnadtsat' : semnadtsat,
     'derynm' : derynm,
     'xzarras'   : xzarras,
@@ -30,4 +41,5 @@ data = {
     'Trisatya-Programming' : Trisatya-Programming,
     'ilse31':ilse31,
 	  'bejjoeqq' : bejjoeqq,
+
 }
