@@ -4,5 +4,6 @@ data = {
     '''''
 <b>Selamat Berkontibusi</b>  
 <i>DOSCOM X HACKTOBERFAST kolaborasi</i>
-    '''' 
+    '''', 
+   'course' : 'Free Course = https://www.agunacourse.com/',
 }
