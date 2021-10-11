@@ -28,7 +28,7 @@ class bot:
 		def list_data(message):
 			command = message.text.replace("/","")
 			json = data[command.split(" ")[0]].data
-			json_sorted = sorted(json.items(), key=lambda x: x[0], reverse=True)
+			json_sorted = dict(sorted(json.items(), key=lambda item: item[0], reverse=True))
 			for x in json_sorted:
 				if ("-course" in command.lower()) and ("course" in x.lower()):
 					self.bot.send_message(message.chat.id,json[x],parse_mode="HTML",disable_web_page_preview=True)
