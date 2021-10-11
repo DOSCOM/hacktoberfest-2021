@@ -1,9 +1,8 @@
 from App.Commands import *
 
 data = {
-
-    'kireikharisma' : kireikharisma,
-    'anamilatul' : anamilatul,
+'kireikharisma' : kireikharisma,
+'anamilatul' : anamilatul,
 'Rifqi2000' : Rifqi2000,
 'lilikwn': lilikwn,
 'RoyalWeaboo' : RoyalWeaboo,
@@ -29,6 +28,8 @@ data = {
 "badroll" : badroll,
 'maulanaaghnii' : maulanaaghnii,
 'rama1277' : rama1277,
+'mkuadrat' : mkuadrat,
+'bddd-bags': bddd-bags,
 'MirzaRazzaq': MirzaRazzaq,
 'yogasnaper' : yogasnaper,
 'arijit' : arijit,
