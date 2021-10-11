@@ -4,4 +4,5 @@ data = {
     <b>Don't Panic</b>
     <i>DOSCOM X HACKTOBERFEST</i>
     Contributed by Semnadtsat'''
+    'course' : 'Free Course = https://www.udemy.com/course/belajar-restful-api-untuk-pemula/
 }
