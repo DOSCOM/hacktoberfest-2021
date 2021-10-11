@@ -7,4 +7,6 @@ data = {
     Contributed by KireiKharisma''',
     'course-1' : 'https://www.udemy.com/course/html5-fundamentals-for-beginners/',
     'course-2' : 'https://www.udemy.com/course/html-online-course/',
+    'free-api-1' : 'https://catfact.ninja/fact',
+    'free-api-2' : 'https://dog.ceo/api/breeds/image/random'
 }
