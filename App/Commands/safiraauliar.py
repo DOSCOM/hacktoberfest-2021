@@ -7,5 +7,5 @@ data={
     ''',
     'course':'Free Course = https://www.udemy.com/course/natural-language-processing-real-world-projects-in-python/',
     'api':'Free API = https://newsapi.org/v2/everything?q=tesla&from=2021-09-11&sortBy=publishedAt&apiKey=de53af0848d640eea96dc01e9afbcea0',
-
+    'api2':'Free API = https://berita-indo-api.vercel.app/v1/cnn-news/',
 }
