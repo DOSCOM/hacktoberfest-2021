@@ -1,7 +1,6 @@
 from App.Commands import *
 
 data = {
-
 'kireikharisma' : kireikharisma,
 'anamilatul' : anamilatul,
 'Rifqi2000' : Rifqi2000,
@@ -33,4 +32,5 @@ data = {
 'bddd-bags': bddd-bags,
 'MirzaRazzaq': MirzaRazzaq,
 'yogasnaper' : yogasnaper,
+'arijit' : arijit,
 }
