@@ -15,7 +15,7 @@ git checkout -b <branch-name>
 #### 4. Tambahkan file command
 Tambahkan file python pada folder Commands menggunakan username github.
 ```sh
-/Commands/<username-github>.py
+App/Commands/<username-github>.py
 ```
 #### 5. Definisikan file
 Definisikan file yang sudah dibuat didalam folder Global.py
