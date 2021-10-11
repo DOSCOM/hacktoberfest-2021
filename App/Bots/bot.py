@@ -29,11 +29,11 @@ class bot:
 			command = message.text.replace("/","")
 			json = data[command.split(" ")[0]].data
 			for x in json:
-				if ("-course" in command) and ("course" in x):
+				if ("-course" in command.lower()) and ("course" in x):
 					self.bot.send_message(message.chat.id,json[x],parse_mode="HTML",disable_web_page_preview=True)
-				if ("-api" in command) and ("api" in x):
+				if ("-api" in command.lower()) and ("api" in x):
 					self.bot.send_message(message.chat.id,json[x],parse_mode="HTML",disable_web_page_preview=True)
-				if ("-course" not in command) and ("-api" not in command) and ("course" not in x) and ("api" not in x):
+				if ("-course" not in command.lower()) and ("-api" not in command.lower()) and ("course" not in x) and ("api" not in x):
 					if "photo" in x:
 						self.bot.send_photo(message.chat.id, json[x])
 					else:
