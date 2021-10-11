@@ -1,7 +1,9 @@
 from App.Commands import *
-from App.Commands import MirzaRazzaq
 
 data = {
+
+    'kireikharisma' : kireikharisma,
+    'anamilatul' : anamilatul,
 'Rifqi2000' : Rifqi2000,
 'lilikwn': lilikwn,
 'RoyalWeaboo' : RoyalWeaboo,
@@ -27,6 +29,12 @@ data = {
 "badroll" : badroll,
 'maulanaaghnii' : maulanaaghnii,
 'rama1277' : rama1277,
+
+'bddd-bags': bddd-bags,
+
+
 'MirzaRazzaq': MirzaRazzaq,
 'yogasnaper' : yogasnaper,
+
 }
+
