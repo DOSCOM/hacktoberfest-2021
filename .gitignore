@@ -1,2 +1,4 @@
 __pycache__
 App/Bots/logs.txt
+Config/
+.pytest_cache
