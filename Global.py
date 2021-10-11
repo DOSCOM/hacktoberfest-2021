@@ -23,7 +23,7 @@ data = {
 'NecroYash' : NecroYash,
 'enricozd' : enricozd,
 'Alaik1924' : Alaik1924,
-'4khdan' : Akhdan,
+'Akhdan' : Akhdan,
 "wmprawiro" : wmprawiro,
 "badroll" : badroll,
 'maulanaaghnii' : maulanaaghnii,
