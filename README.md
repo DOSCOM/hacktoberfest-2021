@@ -6,7 +6,7 @@ Untuk melakukan fork repository, klik pada pojok kanan atas halaman, tersedia to
 #### 2. Clone
 Clone forknya di local computer masing - masing.
 ```sh
-git clone https://github.com/username-github/hacktoberfest-2020.git
+git clone https://github.com/username-github/hacktoberfest-2021.git
 ```
 #### 3. Buat branch
 ```sh
