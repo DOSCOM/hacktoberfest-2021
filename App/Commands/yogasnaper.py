@@ -1,6 +1,6 @@
- data = {
+data = {
 
-     'photo' : '<https://drive.google.com/file/d/1SGzKPdzphOXWwRKL61VgP1KBYVGWZn37/view?usp=sharing>',
+     'photo' : 'https://drive.google.com/file/d/1SGzKPdzphOXWwRKL61VgP1KBYVGWZn37/preview',
      
      'message-1' : '''
      <b>Selamat Berkontribusi di HACKTOBERFEST 2021</b>

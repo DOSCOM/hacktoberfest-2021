@@ -3,6 +3,6 @@ data = {
     'message-1' : '''
     <b>Don't Panic</b>
     <i>DOSCOM X HACKTOBERFEST</i>
-    Contributed by Semnadtsat'''
-    'course' : 'Free Course = https://www.udemy.com/course/belajar-restful-api-untuk-pemula/
+    Contributed by Semnadtsat''',
+    'course' : 'Free Course = https://www.udemy.com/course/belajar-restful-api-untuk-pemula/',
 }

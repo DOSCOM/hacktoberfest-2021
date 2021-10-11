@@ -26,7 +26,7 @@ class bot:
 
 		@self.bot.message_handler(commands=data.keys())
 		def list_data(message):
-			command = message.text.replace("/","").lower()
+			command = message.text.replace("/","")
 			json = data[command.split(" ")[0]].data
 			for x in json:
 				if ("-course" in command) and (x == "course"):
@@ -44,7 +44,7 @@ class bot:
 			try:
 				self.bot.polling()
 			except Exception as e:
-				file1 = open("logs.txt","a")
+				file1 = open("App/Bots/logs.txt","a")
 				file1.write(str(e)+"\n\n")
 				file1.close()
 				self.bot.stop_polling()
