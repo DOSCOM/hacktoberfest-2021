@@ -31,9 +31,15 @@ class bot:
 			json_sorted = dict(sorted(json.items(), key=lambda item: item[0], reverse=True))
 			for x in json_sorted:
 				if ("-course" in command.lower()) and ("course" in x.lower()):
-					self.bot.send_message(message.chat.id,json[x],parse_mode="HTML",disable_web_page_preview=True)
+					try:
+						self.bot.send_message(message.chat.id,json[x],parse_mode="HTML",disable_web_page_preview=True)
+					except Exception as e:
+						self.bot.send_message(message.chat.id, "Ada kesalahan pada message atau tag HTML, periksa kembali.")
 				if ("-api" in command.lower()) and ("api" in x.lower()):
-					self.bot.send_message(message.chat.id,json[x],parse_mode="HTML",disable_web_page_preview=True)
+					try:
+						self.bot.send_message(message.chat.id,json[x],parse_mode="HTML",disable_web_page_preview=True)
+					except Exception as e:
+						self.bot.send_message(message.chat.id, "Ada kesalahan pada message atau tag HTML, periksa kembali.")
 				if ("-course" not in command.lower()) and ("-api" not in command.lower()) and ("course" not in x.lower()) and ("api" not in x.lower()):
 					if "photo" in x.lower():
 						try:
@@ -41,7 +47,10 @@ class bot:
 						except Exception as e:
 							self.bot.send_message(message.chat.id, "Ada kesalahan pada foto, periksa kembali.")
 					else:
-						self.bot.send_message(message.chat.id,json[x],parse_mode="HTML",disable_web_page_preview=True)
+						try:
+							self.bot.send_message(message.chat.id,json[x],parse_mode="HTML",disable_web_page_preview=True)
+						except Exception as e:
+							self.bot.send_message(message.chat.id, "Ada kesalahan pada message atau tag HTML, periksa kembali.")
 		
 	def base_run(self):
 		while True:
