@@ -3,5 +3,6 @@ data = {
     'API' : 'Free API = https://api.publicapis.org/entries',
     'course-1' : 'Free Course  = https://www.udemy.com/course/build-a-quiz-app-with-html-css-and-javascript/',
     'course-2' : 'Free Course = https://www.udemy.com/course/how-to-build-and-make-a-wordpress-website-from-scratch-2017/',
-    'photo' : 'https://images.unsplash.com/photo-1574282411425-e949c106126a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80'
+    'photo' : 'https://images.unsplash.com/photo-1574282411425-e949c106126a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80',
+    'photo-2' : 'https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGFuaW1hbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
 }
