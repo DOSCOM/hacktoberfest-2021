@@ -36,7 +36,10 @@ class bot:
 					self.bot.send_message(message.chat.id,json[x],parse_mode="HTML",disable_web_page_preview=True)
 				if ("-course" not in command.lower()) and ("-api" not in command.lower()) and ("course" not in x.lower()) and ("api" not in x.lower()):
 					if "photo" in x.lower():
-						self.bot.send_photo(message.chat.id, json[x])
+						try:
+							self.bot.send_photo(message.chat.id, json[x])
+						except Exception as e:
+							self.bot.send_message(message.chat.id, "Ada kesalahan pada foto, periksa kembali.")
 					else:
 						self.bot.send_message(message.chat.id,json[x],parse_mode="HTML",disable_web_page_preview=True)
 		
