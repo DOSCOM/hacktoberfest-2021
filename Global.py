@@ -29,7 +29,7 @@ data = {
 'maulanaaghnii' : maulanaaghnii,
 'rama1277' : rama1277,
 'mkuadrat' : mkuadrat,
-'bddd-bags': bddd-bags,
+'bddd-bags': bdddbags,
 'MirzaRazzaq': MirzaRazzaq,
 'yogasnaper' : yogasnaper,
 'arijit' : arijit,
