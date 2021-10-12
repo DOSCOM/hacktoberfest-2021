@@ -1,5 +1,4 @@
 from App.Commands import *
-from App.Commands import dinitaks
 
 data = {
 'kireikharisma' : kireikharisma,
@@ -38,4 +37,5 @@ data = {
 'nurulisma' : nurulisma,
 'dinitaks' : dinitaks,
 'primadya' : primadya,
+'yahyawildan' : yahyawildan,
 }
