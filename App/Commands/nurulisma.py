@@ -4,4 +4,5 @@ data = {
     <b>DOSCOM x HACKTOBERFEST2021</b>
     Nurul Has Contributed''',
     'course' : 'Free Course = https://www.udemy.com/course/natural-language-processing-real-world-use-cases-in-python/?couponCode=OCT_SALES_FIRST',
+    'api' : 'Free API = https://berita-indo-api.vercel.app/',
 }
