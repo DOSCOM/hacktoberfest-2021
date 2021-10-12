@@ -37,4 +37,5 @@ data = {
 'kurniawanflix' : kurniawanflix,
 'nurulisma' : nurulisma,
 'dinitaks' : dinitaks,
+'primadya' : primadya,
 }
