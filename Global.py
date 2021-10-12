@@ -34,4 +34,5 @@ data = {
 'yogasnaper' : yogasnaper,
 'arijit' : arijit,
 'kurniawanflix' : kurniawanflix,
+'nurulisma' : nurulisma,
 }
