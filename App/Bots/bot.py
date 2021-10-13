@@ -28,16 +28,29 @@ class bot:
 		def list_data(message):
 			command = message.text.replace("/","")
 			json = data[command.split(" ")[0]].data
-			for x in json:
-				if ("-course" in command) and ("course" in x):
-					self.bot.send_message(message.chat.id,json[x],parse_mode="HTML",disable_web_page_preview=True)
-				if ("-api" in command) and ("api" in x):
-					self.bot.send_message(message.chat.id,json[x],parse_mode="HTML",disable_web_page_preview=True)
-				if ("-course" not in command) and ("-api" not in command) and ("course" not in x) and ("api" not in x):
-					if "photo" in x:
-						self.bot.send_photo(message.chat.id, json[x])
-					else:
+			json_sorted = dict(sorted(json.items(), key=lambda item: item[0], reverse=True))
+			for x in json_sorted:
+				if ("-course" in command.lower()) and ("course" in x.lower()):
+					try:
 						self.bot.send_message(message.chat.id,json[x],parse_mode="HTML",disable_web_page_preview=True)
+					except Exception as e:
+						self.bot.send_message(message.chat.id, "Ada kesalahan pada message atau tag HTML, periksa kembali.")
+				if ("-api" in command.lower()) and ("api" in x.lower()):
+					try:
+						self.bot.send_message(message.chat.id,json[x],parse_mode="HTML",disable_web_page_preview=True)
+					except Exception as e:
+						self.bot.send_message(message.chat.id, "Ada kesalahan pada message atau tag HTML, periksa kembali.")
+				if ("-course" not in command.lower()) and ("-api" not in command.lower()) and ("course" not in x.lower()) and ("api" not in x.lower()):
+					if "photo" in x.lower():
+						try:
+							self.bot.send_photo(message.chat.id, json[x])
+						except Exception as e:
+							self.bot.send_message(message.chat.id, "Ada kesalahan pada foto, periksa kembali.")
+					else:
+						try:
+							self.bot.send_message(message.chat.id,json[x],parse_mode="HTML",disable_web_page_preview=True)
+						except Exception as e:
+							self.bot.send_message(message.chat.id, "Ada kesalahan pada message atau tag HTML, periksa kembali.")
 		
 	def base_run(self):
 		while True:

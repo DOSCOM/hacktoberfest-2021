@@ -5,4 +5,5 @@ data = {
     <i>DOSCOM X HACKTOBERFEST</i>
     Contributed by Semnadtsat''',
     'course' : 'Free Course = https://www.udemy.com/course/belajar-restful-api-untuk-pemula/',
+    'api' : 'Free API = https://api2.binance.com/api/v3/ticker/24hr',
 }
