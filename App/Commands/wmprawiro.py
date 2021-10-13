@@ -7,6 +7,7 @@ data = {
     'photo' : 'https://i.ibb.co/fDbVRFW/OIP.jpg',
 
     'message-2' : '<b>Keren</b>',
-
+    
+    'api' : 'Free API = https://api.kawalcorona.com/indonesia',
 
 }
