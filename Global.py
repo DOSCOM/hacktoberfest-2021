@@ -39,5 +39,6 @@ data = {
 'dinitaks' : dinitaks,
 'primadya' : primadya,
 'yahyawildan' : yahyawildan,
-'hafizxd' : hafizxd
+'bimarakajati' : bimarakajati,
+'hafizxd' : hafizxd,
 }
