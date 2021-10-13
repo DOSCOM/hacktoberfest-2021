@@ -38,4 +38,5 @@ data = {
 'dinitaks' : dinitaks,
 'primadya' : primadya,
 'yahyawildan' : yahyawildan,
+'Bejo55': Bejo55,
 }
