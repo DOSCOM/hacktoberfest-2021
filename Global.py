@@ -15,6 +15,7 @@ data = {
 'Dewasurya16' : Dewasurya16,
 'TrisatyaProgramming' : TrisatyaProgramming,
 'ilse31':ilse31,
+'Itsuka22' : Itsuka22,
 'bejjoeqq' : bejjoeqq,
 'shironim': shironim,
 'semnadtsat' : semnadtsat,
