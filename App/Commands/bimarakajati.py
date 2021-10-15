@@ -1,5 +1,5 @@
 data = {
-    'photo' : 'https://raw.githubusercontent.com/bimarakajati/bimarakajati.github.io/master/bima.png',
+    'photo' : 'https://i.ibb.co/RpqTpqZ/photo-2021-04-18-22-53-46.jpg',
     'message-1' : '''
 <b>Selamat Berkontibusi</b>
 <i>DOSCOM X HACKTOBERFEST</i>
