@@ -50,5 +50,6 @@ data = {
 'husin14' : husin14,
 'PBWim' : PBWim,
 'ilhamNR' : ilhamNR,
-'snowfluke' : snowfluke
+'snowfluke' : snowfluke,
+'novanauliazami': novanauliazami
 }
