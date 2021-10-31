@@ -1,5 +1,5 @@
 data = {
-   'photo':  'https://avatars.githubusercontent.com/u/44310374?v=4',
+   'photo':  'http://0.gravatar.com/avatar/df9be3bac84eeff6f24a45c3ed5b9181',
    'message-1': 'Halo semua.',
    'message-2': 'Bagaimana kabarnya?',
    'message-3': 'Semoga dalam keadaan baik-baik saja, ya.',
